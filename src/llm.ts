@@ -10,6 +10,7 @@ export abstract class LlmClient {
     this.baseUrl = options.baseUrl.replace(/\/+$/, "");
     this.apiKey = options.apiKey;
     this.model = options.model;
+
   }
 
   abstract complete(input: { system: string; user: string; temperature?: number }, round?: number): Promise<string>;
@@ -54,8 +55,8 @@ export class GoogleCompatibleLlm extends LlmClient {
     const response = await fetch(`${this.baseUrl}/v1beta/models/${this.model}:generateContent`, {
       method: "POST",
       headers: {
-        "content-type": "application/json",
-        "X-goog-api-key": `Bearer ${this.apiKey}`,
+        "Content-Type": "application/json",
+        "X-goog-api-key": this.apiKey,
       },
       body: JSON.stringify({
         contents: [{
