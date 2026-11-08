@@ -25,10 +25,10 @@ import { ReceiptStore } from "./receipts.js";
 import { contractorHome, ensureDir, runDir } from "./storage.js";
 import type { PaymentDetails, PaymentPreference, RunReport, SpendingMode, TaskRequest } from "./types.js";
 
-const HELP = `contractor-agent - budget-bound general contractor for NEAR AI Agent Market
+const HELP = `odin - budget-bound general contractor for NEAR AI Agent Market
 
 Usage:
-  contractor-agent <command> [options]
+  odin <command> [options]
 
 Commands:
   run --task "..." --budget 10 [options]   Plan, source, verify, and pay for a task

@@ -1,5 +1,5 @@
 {
-  "name": "contractor-agent",
+  "name": "odin",
   "version": "0.1.0",
   "description": "Budget-bound general contractor agent for NEAR AI Agent Market",
   "main": "index.js",
