@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../public/logo.png" alt="Odin logo" width="96" />
+</p>
+
 # Architecture
 
 Odin is a small, dependency-light TypeScript service. It is split

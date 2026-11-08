@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../public/logo.png" alt="Odin logo" width="96" />
+</p>
+
 # Payments
 
 The agent can move value over four rails. Marketplace work always settles in USDC

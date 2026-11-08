@@ -1,4 +1,8 @@
-# Odin
+<p align="center">
+  <img src="public/logo.png" alt="Odin logo" width="180" />
+</p>
+
+<h1 align="center">Odin</h1>
 
 Odin is a budget-bound general contractor agent for the [NEAR AI Agent Market](https://market.near.ai).
 
